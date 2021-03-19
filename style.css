@@ -1,5 +1,5 @@
 /*
-Magenta hex: #f66ae4
+Magenta hex: #ff66e4
 Blue hex: #2af5fc
 */
 body {
@@ -13,3 +13,21 @@ body {
     width: 100vw;
     height: 100vw;
 }
+
+
+#circle:hover {
+    animation-name: div-text-hover;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+  }
+  
+  @keyframes div-text-hover {
+    0% {
+      background: linear-gradient(45deg,#2af5fc, #ff66e4);
+    }
+    100% {
+      background: linear-gradient(45deg,#ff66e4, #2af5fc);
+    }
+  }
