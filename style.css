@@ -1,0 +1,15 @@
+/*
+Magenta hex: #f66ae4
+Blue hex: #2af5fc
+*/
+body {
+    background-size: cover;
+    background-image:linear-gradient(#ff66e4, #2af5fc);
+}
+
+#circle {
+    background-image:linear-gradient(to bottom right, #2af5fc, #ff66e4);
+    border-radius: 50%;
+    width: 100vw;
+    height: 100vw;
+}
